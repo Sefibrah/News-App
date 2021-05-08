@@ -1,10 +1,11 @@
 # News-App
 
-Project by: Ibrahim Sefer seferibrahim2@gmail.com <br>
-Stack used: ASP.NET Core 5 & Angular 11 <br>
+Project by: **Ibrahim Sefer seferibrahim2@gmail.com** <br>
+Stack used: **ASP.NET Core 5 & Angular 11** <br>
 
-Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD). <br>
-User/Guest can READ <br>
+Roles: **Admin, User**
+Admin: **FILTER, CREATE, READ, UPDATE, DELETE (CRUD)** <br>
+User/Guest: **READ** <br>
 
 ## Getting started
 
