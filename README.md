@@ -20,13 +20,13 @@ User / Guest can READ <br>
 
 ``ng serve``
 
-Then go to browser link http://locahost:4200
+Then go to browser link http://loca;host:4200
 
 ## Admin user credentials
 
 Go to the login page and type the following credentials:
 
-> Email: admin@gmail.com <br>
-> Password: Pa$$w0rd
+> Email: **admin@gmail.com** <br>
+> Password: **Pa$$w0rd**
 
 Enjoy!
