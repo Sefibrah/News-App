@@ -1,6 +1,8 @@
 # News-App
 
-Project by Ibrahim Sefer. <br>
+Project by: Ibrahim Sefer. <br>
+Stack used: ASP.NET Core 5 & Angular 11 <br>
+
 Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD). <br>
 User / Guest can READ <br>
 
@@ -18,7 +20,7 @@ User / Guest can READ <br>
 
 ``ng serve``
 
-``http://localhost:4200``
+Then go to browser link http://locahost:4200
 
 ## Admin user credentials
 
