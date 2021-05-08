@@ -1,8 +1,8 @@
 # News-App
 
-Project by Ibrahim Sefer.
-Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD)
-User / Guest can READ
+Project by Ibrahim Sefer. <br>
+Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD). <br>
+User / Guest can READ <br>
 
 ``npm i`` <br>
 
