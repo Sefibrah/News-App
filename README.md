@@ -1,10 +1,10 @@
 # News-App
 
-Project by: Ibrahim Sefer. <br>
+Project by: Ibrahim Sefer seferibrahim2@gmail.com <br>
 Stack used: ASP.NET Core 5 & Angular 11 <br>
 
 Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD). <br>
-User / Guest can READ <br>
+User/Guest can READ <br>
 
 ## Getting started
 
@@ -31,4 +31,4 @@ Go to the login page and type the following credentials:
 > Email: **admin@gmail.com** <br>
 > Password: **Pa$$w0rd**
 
-## Enjoy!
+### Enjoy!
