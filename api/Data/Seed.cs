@@ -8,11 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace api.Data {
     public class Seed {
-        public static async Task SeedUsers(UserManager<AppUser> userManager, RoleManager<Role> roleManager) {
+        public static async Task SeedUsers(DataContext context, UserManager<AppUser> userManager, RoleManager<Role> roleManager) {
             if (await userManager.Users.AnyAsync()) return;
 
             var stream = await File.ReadAllTextAsync("Data/UserSeedData.json");
+            var streamArticles = await File.ReadAllTextAsync("Data/ArticleSeedData.json");
             var users = JsonSerializer.Deserialize<List<AppUser>>(stream);
+            var articles = JsonSerializer.Deserialize<List<Article>>(streamArticles);
             if (users == null) return;
 
             var roles = new List<Role> {
@@ -20,6 +22,10 @@ namespace api.Data {
                 new Role { Name = "User" }
             };
 
+            foreach (var a in articles) {
+                await context.Articles.AddAsync(a);
+            }
+            await context.SaveChangesAsync();
             foreach (var r in roles) {
                 await roleManager.CreateAsync(r);
             }

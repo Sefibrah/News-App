@@ -69,3 +69,4 @@
 /Users/ibrahimsefer/Desktop/NewsApp/api/bin/Debug/net5.0/Data/UserSeedData.json
 /Users/ibrahimsefer/Desktop/NewsApp/api/bin/Debug/net5.0/AutoMapper.dll
 /Users/ibrahimsefer/Desktop/NewsApp/api/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/ibrahimsefer/Desktop/NewsApp/api/bin/Debug/net5.0/Data/ArticleSeedData.json

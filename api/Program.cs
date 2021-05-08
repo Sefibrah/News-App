@@ -23,7 +23,7 @@ namespace api {
                 var userManager = services.GetRequiredService<UserManager<AppUser>>();
                 var roleManager = services.GetRequiredService<RoleManager<Role>>();
                 await context.Database.MigrateAsync();
-                await Seed.SeedUsers(userManager, roleManager);
+                await Seed.SeedUsers(context, userManager, roleManager);
             } catch (Exception xcp) {
                 var iLogger = services.GetRequiredService<ILogger<Program>>();
                 iLogger.LogError(xcp, "Error occured during seeding migration");
