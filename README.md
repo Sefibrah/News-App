@@ -23,7 +23,7 @@ User/Guest: **READ** <br>
 
 ``ng serve``
 
-Then go to browser link http://loca;host:4200
+Then go to browser link http://localhost:4200
 
 ### Admin user credentials
 
