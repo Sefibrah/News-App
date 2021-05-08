@@ -1,5 +1,9 @@
 # News-App
 
+Project by Ibrahim Sefer.
+Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD)
+User / Guest can READ
+
 ``npm i`` <br>
 
 ## First terminal
@@ -20,7 +24,7 @@
 
 Go to the login page and type the following credentials:
 
-> Email: admin@gmail.com
+> Email: admin@gmail.com <br>
 > Password: Pa$$w0rd
 
 Enjoy!
