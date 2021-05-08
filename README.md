@@ -6,15 +6,17 @@ Stack used: ASP.NET Core 5 & Angular 11 <br>
 Admin user can FILTER, CREATE, READ, UPDATE, DELETE (CRUD). <br>
 User / Guest can READ <br>
 
+## Getting started
+
 ``npm i`` <br>
 
-## First terminal
+### First terminal
 
 ``cd api`` <br>
 
 ``dotnet run``
 
-## Second terminal
+### Second terminal
 
 ``cd client`` <br>
 
@@ -22,11 +24,11 @@ User / Guest can READ <br>
 
 Then go to browser link http://loca;host:4200
 
-## Admin user credentials
+### Admin user credentials
 
 Go to the login page and type the following credentials:
 
 > Email: **admin@gmail.com** <br>
 > Password: **Pa$$w0rd**
 
-Enjoy!
+## Enjoy!
