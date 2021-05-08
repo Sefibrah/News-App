@@ -13,3 +13,7 @@
 ``cd client`` <br>
 
 ``ng serve``
+
+``http://localhost:4200``
+
+Enjoy!
